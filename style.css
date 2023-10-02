@@ -2,6 +2,39 @@ body {
     background-color: #262222;
 }
 
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    background-color: #000;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar li {
+    margin-right: 70px;
+}
+
+.navbar a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.navbar a:hover {
+    color:  #FF7CF2 ;
+}
+
 .box {
     width: 1300px;
     height: 650px;
@@ -21,7 +54,18 @@ body {
     left: 70rem;
     z-index: 2;
 }
-
+.rocket:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+}
+.hole:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+}
+.helmet:hover{
+    scale: 1.1;
+    transition: ease-in-out;
+}
 .star {
     width: 20%;
     height: 20%;
@@ -47,6 +91,7 @@ body {
     left: 45rem;
     z-index: 2;
 }
+
 .hole {
     width: 15%;
     height: 20%;
@@ -55,6 +100,7 @@ body {
     left: 43rem;
     z-index: 2;
 }
+
 .box1 {
     width: 500px;
     height: 500px;
@@ -76,7 +122,6 @@ body {
     left: 53.25rem;
     z-index: 1;
 }
-
 .text {
     color: white;
     font-size: 52px;
