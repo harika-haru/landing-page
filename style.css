@@ -1,0 +1,134 @@
+body {
+    background-color: #262222;
+}
+
+.box {
+    width: 1300px;
+    height: 650px;
+    border-radius: 20px;
+    background-color: black;
+    position: absolute;
+    top: 3rem;
+    left: 10rem;
+}
+
+.rocket {
+    width: 15%;
+    height: 30%;
+    transform: rotate(353deg);
+    position: absolute;
+    top: 14rem;
+    left: 70rem;
+    z-index: 2;
+}
+
+.star {
+    width: 20%;
+    height: 20%;
+    position: absolute;
+    top: 1rem;
+    left: 0rem;
+}
+
+.astronaut {
+    width: 20%;
+    height: 65%;
+    position: absolute;
+    top: 10.5rem;
+    left: 56rem;
+    z-index: 2;
+}
+
+.helmet {
+    width: 12%;
+    height: 18%;
+    position: absolute;
+    top: 7rem;
+    left: 45rem;
+    z-index: 2;
+}
+.hole {
+    width: 15%;
+    height: 20%;
+    position: absolute;
+    top: 25rem;
+    left: 43rem;
+    z-index: 2;
+}
+.box1 {
+    width: 500px;
+    height: 500px;
+    border-radius: 9999px;
+    border: 1px #B8B8B8 solid;
+    position: absolute;
+    top: 5rem;
+    left: 46rem;
+}
+
+.gradient-box {
+    width: 300px;
+    height: 300px;
+    background: linear-gradient(139deg, #FF7CF2 0%, rgba(16.37, 143.04, 170.85, 0.96) 100%);
+    box-shadow: 0px 4px 47px rgba(25.71, 21.96, 21.96, 0.50);
+    border-radius: 9999px;
+    position: absolute;
+    top: 10rem;
+    left: 53.25rem;
+    z-index: 1;
+}
+
+.text {
+    color: white;
+    font-size: 52px;
+    font-family: Iceland;
+    font-weight: 400;
+    word-wrap: break-word;
+    position: absolute;
+    top: 10rem;
+    left: 2rem;
+}
+
+.sub-text {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+    word-wrap: break-word;
+
+}
+
+.description {
+    width: 670px;
+    color: white;
+    font-size: 20px;
+    font-family: Karma;
+    font-weight: 500;
+    word-wrap: break-word;
+    position: absolute;
+    top: 26rem;
+    left: 3rem;
+}
+
+.button-container {
+    left: 8rem;
+    top: 33rem;
+    position: absolute;
+}
+
+.button-background {
+    width: 150px;
+    height: 40px;
+    background: linear-gradient(90deg, #1589A6 0%, #CA80E1 100%);
+    border-radius: 55px;
+}
+
+.button-text {
+    left: 30px;
+    top: 8px;
+    position: absolute;
+    color: #FFF9F9;
+    font-size: 20px;
+    font-family: Lexend Giga;
+    font-weight: 400;
+    word-wrap: break-word;
+}
